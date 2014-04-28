@@ -1,5 +1,5 @@
 {
-    "name": "tomcorbett/stream-php",
+    "name": "tomcorbett/ustream-php",
     "description": "A PHP wrapper for the ustream data API",
     "keywords": ["ustream", "video", "data api"],
     "homepage": "https://github.com/tomcorbett/ustream-php",
@@ -20,7 +20,7 @@
         "phpunit/phpunit": "~3.7.0"
     },
     "autoload": {
-        "psr-4": {"tomcorbett\\UstreamApi": "src"}
+        "psr-4": {"tomcorbett\\UstreamApi\\": "src"}
     },
     "minimum-stability": "dev"
 }
